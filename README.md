@@ -1,4 +1,4 @@
-# Real-time Object Detection for Autonomous Driving using Deep Learning, Goethe University Frankfurt (Fall 2020)
+# Real-time Object Detection for Autonomous Driving using Deep Learning
 
 **Project team (A-Z):**
 * Mohd Ashfaq 
