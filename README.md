@@ -1,23 +1,13 @@
 # Real-time Object Detection for Autonomous Driving using Deep Learning, Goethe University Frankfurt (Fall 2020)
 
-## General Information
-<img align="right" width="300" height="" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Logo-Goethe-University-Frankfurt-am-Main.svg">
-
-**Instructors:**
-* [Prof. Dr. Gemma Roig](http://www.cvai.cs.uni-frankfurt.de/team.html), email: roig@cs.uni-frankfurt.de
-* Dr. Iuliia Pliushch
-* Kshitij Dwivedi
-* Matthias Fulde
-
-**Institutions:**
-  * [Goethe University](http://www.informatik.uni-frankfurt.de/index.php/en/)
-  * [Computational Vision & Artificial Intelligence](http://www.cvai.cs.uni-frankfurt.de/index.html)
-
 **Project team (A-Z):**
-* Duy Anh Tran
-* Pascal Fischer
-* Alen Smajic
-* Yujin So
+* Mohd Ashfaq 
+* Abdul Hadi Ali
+* Joseph
+* Jakeer Hussain
+* Adnan khan
+  
+  
 
 ## Publications ##
  * [YouTube Video (YOLO)](https://www.youtube.com/watch?v=ANQczqZwaY4)
@@ -38,10 +28,6 @@ Datasets drive vision progress, yet existing driving datasets are limited in ter
 In 2018 Yu et al. released BDD100K, the largest driving video dataset with 100K videos and 10 tasks to evaluate the progress of image recognition algorithms on autonomous driving. The dataset possesses geographic, environmental, and weather diversity, which is useful for training models that are less likely to be surprised by new conditions. Provided are bounding box annotations of 13 categories for each of the reference frames of 100K videos and 2D bounding boxes annotated on 100.000 images for "other vehicle", "pedestrian", "traffic light", "traffic sign", "truck", "train", "other person", "bus", "car", "rider", "motorcycle", "bicycle", "trailer".
 
 The goal of our project is to detect and classify traffic objects in a video in real-time using two approaches. We trained the two state-of-the-art models YOLO and Faster R-CNN on the Berkeley DeepDrive dataset to compare their performances and achieve a comparable mAP to the current state-of-the-art on BDD100K, which is 45.7 using a hybrid incremental net. We will focus on the context of autonomous driving and compare the models performances on a live video measuring FPS and mAP.
-
-### Dataset ###
-
-You can download the dataset [here](https://bdd-data.berkeley.edu/)
 
 ### Model Weights ###
 
